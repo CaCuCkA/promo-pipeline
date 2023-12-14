@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  airflow-webserver:
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=false
+
+  airflow-scheduler:
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=false
+
+  postgres:
+    ports:
+      - "5432:5432"
+
+  requirements:
+    image: python:3.8-alpine
+    volumes:
+      - .:/project
+      - pip38:/usr/local/lib/python3.7/site-packages
+    working_dir: /project
+    command: pip install -r requirements.txt
+
+volumes:
+  pip38:
+    external: true
