@@ -15,20 +15,10 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
-OPENAI_KEY = "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"
+OPENAI_KEY = "openai-gcp-key"
 TARGET_URL = "https://www.whosmailingwhat.com/blog/best-direct-mail-marketing-examples/"
 GOOGLE_API_KEY = {
-    "type": "service_account",
-    "project_id": "apache-airflow-407819",
-    "private_key_id": "ebe4ee45a2cf8bc3af2c2d5606ce63bdeec45dc0",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDBr4gW2tVfGeR0\nl/wb8FrPmWRatc6ikBaQJaTKls9TV5/aOM2CZNHWlrmuwmILkC50UAYibvV1fbAS\nW/IErx9QiogfUH7bmANegIRjzcUF92uy09lSCWtGycWpQa4ry8lQU//c4Nv8DEi7\n1kQmlDb01cp+XimhIRTA7NBZbDW+Ii0E4ub5Fj0h9pAv1yTRQqhQgPelm2FUlld6\nAHc00NF8W0UqtMhWpoe+HYdTx4hmE/uATWt2h1k0tboMcy7H+rx/wVkv7ieOhXqV\nCaIf8AHp1Mvn0FWNl5dXdYDzY93IoJkzVwIxm1JpXg7zsZ1Gp1sGCpO3ad0DcBxy\nPsAuNgaFAgMBAAECggEACUbiCs4yeBqiYZ9B+QibIORk9R9OJWUnX4IeEYIFriU9\nR9N+rGct0cxoWmF/FrSyNOn8UTvlT9pUS5zRy72jj1UDThSp7tSqHKWlMa6SaEXA\nh9Ez0IUY+UwCxqeZswlQvCM51xeCEeF4vl515y8kLrfqugDCl7Ag8VimZhITxOaC\numIvSSxEqXtuZ28ciIdRotbG8GWpgiLUcfckzTkguHX5BSDdEDAMtsi6+0aXhxUb\n8GN6m4xgaRjkia22dtwqaSzBMYfjmNOxUqtf0Pzotleu3rTiL6GROxqbYS4mk9hL\ns/R8rFBBCSXzxekzuBANcTjDA7wypEB6eg58ikbz5QKBgQD0vWUpwKBMLnXQC24O\nnQI88ka7O0xjP04GElJQe8dq8FQ/ssdPo5w7psk0dlPH0tHd7le2Nv26hIpu1kvZ\nhdKKMzI5JR1G6OoqrbLuLA+8q5/eOUFSRY8h/x4Hq/gF8ALwYy3RCRmCKGKSpe57\n/9CbsaiGm84zIrBZqxnRSOvIqwKBgQDKmM7puF/vVyezwcTWnu/pW2vB/NAuyadd\nAKD1WjHGU185aRgb4tJwuQQX0alZhEgmF8HCDM/XfjuibawCwo3ffks93jLlUZTw\nSsdKT1I6DKu8eP9SgrDhRMgkj6Kq6O/nQ3azAm1Qloi+nmv6b2PglOBHTB2hhc5M\nuYcTiHDNjwKBgQCmOIgfzmtQsnFjxo+OL0cY27f8bC7abWFxsDnl3du4HtgplyPV\nTBrNTN702bTXT7EoGTvLTxgO+PwIgVVsvH4dTN48f5+dzI1WRTj0mEpr6uiehqZ9\n2S54eYwMy9idN8DXQZUZlyOTChjA3x/Vag5l4EjEe8eVZWb+z72uLeeuFwKBgD5G\nZGvhWdPnNXQC3u+d4V8Y0/HINXH8WG61D8T7WYt9+ypZjKidu1Qc+w4bS3QRvl+/\nM7bjW0wBKHGQRqx+gz+swZId6AUnY6HNSp8j7MGdPXjstIb3V0mXa/IZGMZyXbP3\nv9fcqh94dkYpykUr0kapXJtt4TnSOIzLBqNRcGMvAoGBAIE2XzS81fquRI4Wo9Ll\nfqaU5Rb1H1dHKYWRGu8PACfD32MMZRSwfeDK8SRHkNTO6S4O3V5DW14L2jlAYywY\nchCKh67q1bobZ3eJdc2zFdQ0xQKaT27PoVQMyKcR4jXFFbEZr2NtU75taHw/6vFL\nN07OGUvyOa5gZj5MZVacERWW\n-----END PRIVATE KEY-----\n",
-    "client_email": "apache-airflow@apache-airflow-407819.iam.gserviceaccount.com",
-    "client_id": "114236664258855094875",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/apache-airflow%40apache-airflow-407819.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
+    "api_key": "<KEY>"
 }
 
 
