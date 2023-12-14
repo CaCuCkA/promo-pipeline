@@ -1,0 +1,4 @@
+requests
+sqlalchemy
+beautifulsoup4
+google-cloud-vision

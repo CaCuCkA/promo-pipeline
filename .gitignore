@@ -1,0 +1,6 @@
+./aiflow-data
+./config
+./dags
+./logs
+./plugins
+
