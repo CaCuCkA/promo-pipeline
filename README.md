@@ -1,7 +1,6 @@
 # Promo Pipeline
 
-A custom Apache Airflow pipeline designed for the management of marketing materials. This educational project focuses on
-the exploration and implementation of new technologies within the context of marketing material workflows.
+The project entails a custom Apache Airflow pipeline designed for the management of marketing materials. The primary focus is on exploring and implementing new technologies within the context of marketing material workflows.
 
 ## Prerequisites
 
